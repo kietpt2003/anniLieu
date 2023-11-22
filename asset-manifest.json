@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/anniLieu/static/css/main.f855e6bc.css",
+    "main.js": "/anniLieu/static/js/main.8acfdd8c.js",
+    "static/js/787.fe0d0890.chunk.js": "/anniLieu/static/js/787.fe0d0890.chunk.js",
+    "index.html": "/anniLieu/index.html",
+    "main.f855e6bc.css.map": "/anniLieu/static/css/main.f855e6bc.css.map",
+    "main.8acfdd8c.js.map": "/anniLieu/static/js/main.8acfdd8c.js.map",
+    "787.fe0d0890.chunk.js.map": "/anniLieu/static/js/787.fe0d0890.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f855e6bc.css",
+    "static/js/main.8acfdd8c.js"
+  ]
+}
