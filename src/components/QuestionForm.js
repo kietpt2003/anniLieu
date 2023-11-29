@@ -71,7 +71,7 @@ export default function QuestionForm({ question, currentQuestion, setCurrent, sh
             <Typography level="p" fontSize="20px" sx={{
                 mb: 0.5, display: 'flex', justifyContent: 'center', color: '#00A9FF', paddingTop: '0.5rem'
             }}>
-                Câu: {currentQuestion + 1}
+                Câu: {currentQuestion + 1}, Score: {totalScore}
             </Typography>
             <Box sx={{
                 display: 'flex', justifyContent: 'center'
@@ -79,9 +79,9 @@ export default function QuestionForm({ question, currentQuestion, setCurrent, sh
                 <Box sx={{
                     display: 'flex', flexDirection: 'column', justifyContent: 'center', width: '90%'
                 }}>
-                    <Box sx={{ height: '10rem', border: '1px solid #00A9FF', borderRadius: '10%' }}>
+                    <Box sx={{ display: 'flex', justifyContent: 'center', height: '10rem', border: '1px solid #00A9FF', borderRadius: '10%' }}>
                         <Typography level="p" fontSize="20px" sx={{
-                            mb: 0.5, display: 'flex', justifyContent: 'center', color: '#00A9FF',
+                            mb: 0.5, textAlign: 'center', padding: '1rem', color: '#00A9FF', marginTop: '2rem'
                         }}>
                             {question.ques}
                         </Typography>
